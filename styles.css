@@ -1,0 +1,31 @@
+*{
+	margin: 10px; padding: 0;
+}
+body{
+	background: url(pictures/green.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
+	color: azure;
+}
+div{
+	vertical-align: middle;
+	text-align: middle;
+}
+#head{
+	position: middle;
+	text-align: center;
+	border-style: groove;
+	border-color: red;
+	border-radius: 30px;
+}
+#body{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify-all;
+	text-indent: 50px;
+	border-color: darkgray;
+	border-radius: 15px;
+	border-style: groove;
+	background: url(pictures/rdbull.jpg);
+}
+
