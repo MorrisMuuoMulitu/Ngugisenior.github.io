@@ -9,6 +9,9 @@ div{
 	vertical-align: middle;
 	text-align: middle;
 }
+#topdiv{
+	margin-top: 15px;
+}
 #head{
 	position: middle;
 	text-align: center;
