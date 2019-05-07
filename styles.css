@@ -42,7 +42,7 @@ div{
 	text-align: center;
 	border-style: groove;
 	border-color: red;
-	background-color: orange;
+	background-color: #1a001a;
 	border-radius: 30px;
 }
 #body{
@@ -68,5 +68,17 @@ div{
 	border-style: dashed;
 	border-width: 10px;
 	border-radius: 10px;
+}
+#footer{
+
+	background-color: #1a0000;
+	text-decoration-line: none;
+	text-decoration:none;
+	list-style: none;
+	color:blue;
+}
+#footerhead{
+	padding-top: 20px;
+	color: azure;
 }
 
