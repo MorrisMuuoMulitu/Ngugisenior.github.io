@@ -9,9 +9,32 @@ div{
 	vertical-align: middle;
 	text-align: middle;
 }
-#topdiv{
+#topnav{
+	border-radius: 30px;
+
+	text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-align: center;
+
+
+	
+	background-color: silver;
+	color: purple;
+	font-weight: bold;
+
+	float: center;
+	
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 25px;
+
 	margin-top: 15px;
-	color: red;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	height: 50px;
 	position: middle;
 }
 #head{
