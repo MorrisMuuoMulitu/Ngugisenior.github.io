@@ -70,12 +70,20 @@ div{
 	border-radius: 10px;
 }
 #footer{
-
+	border-color: silver;
+	border-radius: 25px;
+	border-width: 20px;
 	background-color: #1a0000;
 	text-decoration-line: none;
 	text-decoration:none;
 	list-style: none;
 	color:blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 #footerhead{
 	padding-top: 20px;
