@@ -11,6 +11,8 @@ div{
 }
 #topdiv{
 	margin-top: 15px;
+	color: red;
+	position: middle;
 }
 #head{
 	position: middle;
