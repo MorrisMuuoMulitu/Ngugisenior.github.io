@@ -2,46 +2,41 @@
 	margin: 10px; padding: 0;
 }
 body{
-	background: url(pictures/juniper.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
+	background: url(pictures/hackb.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
 	color: azure;
 }
 div{
 	vertical-align: middle;
 	text-align: middle;
 }
-#topnav{
-	border-radius: 30px;
-
-	text-decoration: none;
-	text-decoration-line: none;
-	text-decoration-color: none;
-	text-align: center;
-
-
+#nav{
+	border-style: groove;
+	border-radius: 35px;
+	height: 30px;
 	
-	background-color: silver;
-	color: purple;
-	font-weight: bold;
-
-	float: center;
-	
-	font-size: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 25px;
-
-	margin-top: 15px;
-	margin-left: 20px;
-	margin-right: 20px;
-	
-	height: 50px;
 	position: middle;
+	text-align: center;
+	border-color: silver;
+	background-color: #1a0033;
+	padding-top: 30px;
+	border-width: 5px;
+	font-weight: bold;
+}
+#navlinks{
+	text-decoration-line: none;
+	border-style: groove;
+	border-radius: 10px;
+	text-decoration: none;
+	color:azure;
+	background-color: 	#330033;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 #head{
 	position: middle;
 	text-align: center;
 	border-style: groove;
-	border-color: red;
+	border-color: 	#9a83af;
 	background-color: #1a001a;
 	border-radius: 30px;
 }
@@ -52,7 +47,7 @@ div{
 	padding-right: 20px;
 	text-align: justify;
 	text-indent: 50px;
-	border-color: darkgray;
+	border-color: #0d0033;
 	border-radius: 15px;
 	border-style: groove;
 	background: url(pictures/rdbull.jpg);
@@ -72,9 +67,9 @@ div{
 #h1, #h2, #recursion{
 	padding-left: 20px;
 	margin-top: 25px;
-	border-color: lightgreen;
-	background-color: darkgray;
-	color: darkblue;
+	border-color: #280647;
+	background-color: #271e2f;
+	color: azure;
 	position: middle;	
 	text-align: justify-all;
 	border-style: dashed;
@@ -82,20 +77,20 @@ div{
 	border-radius: 10px;
 }
 #footer{
-	border-color: silver;
-	border-radius: 25px;
-	border-width: 20px;
 	background-color: #1a0000;
+	
+	
+	list-style: none;
+	color:azure;
+	border-color: silver;
+	border-radius: 10px;
+	border-style: groove;
+}
+#footer_references{
 	text-decoration-line: none;
 	text-decoration:none;
-	list-style: none;
-	color:blue;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	color: azure;
+	text-align: center justify;
 }
 #footerhead{
 	padding-top: 20px;
@@ -107,4 +102,5 @@ div{
 #floatright{
 	float: right;
 }
+
 
