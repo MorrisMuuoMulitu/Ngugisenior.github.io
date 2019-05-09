@@ -2,7 +2,7 @@
 	margin: 10px; padding: 0;
 }
 body{
-	background: url(pictures/hackb.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
+	background: url(pictures/backg.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
 	color: azure;
 }
 div{
@@ -50,7 +50,7 @@ div{
 	border-color: #0d0033;
 	border-radius: 15px;
 	border-style: groove;
-	background: url(pictures/rdbull.jpg);
+	background: url(pictures/backg.jpg);
 }
 #pabout{
 	text-align: center justify-all;
