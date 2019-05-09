@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.counter>div{
+			margin: 5px;
+			border:1px solid black;
+		}
+		.counter>div>div{
+			color:white;
+			line-height: 30px;
+			font-weight: bold;
+			text-align: center;
+			background-color:red;
+			height:30px;
+			transition: all .3s;
+		}
+	</style>
+</head>
+<body>
+
+<button id="add">0</button>
+<div id="counters"></div>
+<script>
+
+class App{
+	constructor(buttonId, countersId, numberSystem=2){
+		var counters = document.getElementById(countersId);
+		counters.classList.add('counter');
+		var counter = new Counter(counters, numberSystem);
+		var button = document.getElementById(buttonId);
+		button.addEventListener('click', ()=>{
+			button.innerHTML = parseInt(button.innerHTML)+1;
+			counter.count ++;
+		});
+	}
+}
+
+class Counter{
+	constructor(parent, numberSystem){
+		this.numberSystem = numberSystem;
+		this.parent = parent;
+		var div = document.createElement('div');
+		this.parent.appendChild(div);
+		this.wrapper = div;
+		this.counter = document.createElement('div');
+		this.wrapper.appendChild(this.counter);
+		this.count = 0;
+		this.childCounter = null;
+	}
+
+	set count(value){
+		if(value >= this.numberSystem){
+			value = 0;
+			if(!this.childCounter){
+				this.childCounter = new Counter(this.parent, this.numberSystem);
+			}
+			this.childCounter.count ++;
+		}
+		this._count = value;
+		this.counter.style.width = this.count * (100/(this.numberSystem-1)) + '%';
+		if(value === 0) this.counter.innerHTML = '';
+		else this.counter.innerHTML = value;
+	}
+
+	get count(){return this._count;}
+}
+
+new App('add', 'counters', 2);
+</script>
+</body>
+</html>
