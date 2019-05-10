@@ -1,0 +1,25 @@
+#home{
+	background-color: purple;
+}
+#body{
+	background-color: purple;
+}
+#img0{
+	margin-top: 100px;
+	margin-left: 45%;
+}
+#img-circle{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+#head{
+	text-align: center;
+	color: azure;
+	font-weight: bold;
+	background-color: darkblue;
+	border-style: groove;
+	border-radius: 30px;
+	border-color: orange;
+}
