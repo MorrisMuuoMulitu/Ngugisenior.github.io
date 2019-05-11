@@ -1,7 +1,20 @@
-*{
+#topp{
+	background:url(../pictures/comp.jpg);
 	background-color: black;
+	height: 90%;
+	border-style: groove;
+	border-radius: 30px;
+	border-width: 20px;
+	border-top-color: lightgreen;
+	border-right-color: silver;
+	border-left-color: silver;
+	border-bottom-color: darkgreen;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 #align{
+	margin-top: 20px;
 	margin: 50px;
 	height: 20px;
 	background-color: azure;
@@ -43,4 +56,5 @@
 	border-left-color: lightgreen;
 	border-right-color: darkgreen;
 	border-bottom-color: azure;
+	background-color: darkgreen;
 }
