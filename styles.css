@@ -10,7 +10,7 @@
 	border-radius: 40px;
 }
 body{
-	background: url(pictures/backg.jpg),url("pictures/hilx.jpg"),url("pictures/rdbull.jpg"),url(pictures/hack.jpeg) darkblue;
+	background: url(pages/pictures/backg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
 	color: azure;
 }
 div{
