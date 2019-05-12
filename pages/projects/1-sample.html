@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			font-family: arial;
+			color:#333333;
+		}
+
+		a{text-decoration: none;}
+
+		nav{
+			margin-bottom:20px;
+		}
+
+
+
+		nav.first a{
+			display:block;
+			padding:2px 8px;
+		}
+		nav.first a:empty:after{ content:attr(href); }
+		nav.first a:nth-child(2n){ color:#999999; }
+		nav.first a:nth-child(2n+1){ background-color:#cccccc; }
+		nav.first a:hover{
+			background-color: red;
+			color:white;
+		}
+
+
+		nav.second a{
+			line-height: 24px;
+			padding-left: 28px;
+			height: 24px;
+			margin-bottom:8px;
+			display: block;
+			position: relative;
+		}
+
+		nav.second a:before{
+			content:'';
+			background-image:url(duck.png);
+			background-repeat: no-repeat;
+			transition: all .6s;
+			width: 24px;
+			height:24px;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		nav.second a:hover:before{
+			transform: rotate(360deg);
+		}
+	</style>
+</head>
+<body>
+	
+	<nav class="first">
+		<a href="http://www.gamer365.hu">Gamer365</a>
+		<a href="http://www.gamer365.hu"></a>
+		<a href="http://www.gamer365.hu">Gamer365</a>
+		<a href="http://www.gamer365.hu"></a>
+		<a href="http://www.gamer365.hu">Gamer365</a>
+		<a href="http://www.gamer365.hu"></a>
+	</nav>
+
+	<nav class="second">
+		<a href="http://www.gamer365.hu">Gamer365</a>
+		<a href="http://www.gamer365.hu">Gamer365</a>
+	</nav>
+
+</body>
+</html>

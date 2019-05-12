@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pyrax Technologies</title>
+	<style type="text/css">
+		html, body{
+			height: 100%;
+		}
+		/*basic css reset */
+		*{
+			box-sizing: border-box;
+			font-family: arial;
+			color: #333333;
+			margin:0;
+		}
+		div.page>header{
+			grid-area: head;
+		}
+		div.page>nav{grid-area: menu;}
+		div.page>section{grid-area: cont;}
+		div.page>footer{grid-area: foot}
+		div.page{
+			min-height: 100%;
+			width: 800px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-areas: 
+			'head head'
+			'menu cont'
+			'foot foot';
+			grid-template-rows: 160px auto 100px; /*the height of the three rows*/
+			grid-template-columns: 200px 600px; /*the width of the two columns*/
+		}
+		div.page>header{
+			background-color: rgba(0,0,0,.5);
+		}
+		div.page>nav a{
+			color: #ffffff;
+			background-color: rgba(0,0,0,.8);
+			padding: 0 10px;
+			display: block;
+			line-height: 30px;
+			text-decoration: none;
+			border-bottom: 1px solid #555;
+		}
+		div.page>nav a:hover{
+			background-color: #55669999;
+			color: pink;
+		}
+		div.page>section{
+			padding: 20px;
+			background-color: #333300;
+		}
+		div.page>section h1{
+			background-color: orange;
+		}
+		div.page>section h1:hover{
+			color: lightgreen;
+			background-color: #5d6389;
+		}
+		.header2{
+			font-size: 40px;
+			padding-top: 50px;
+		}
+		.header2 em:hover{
+			font-size: 60px;
+			font-family: serif;
+		}
+		.bg{
+			background-image: url(bg.jpg);
+			height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		div.page>section p,em{
+			color: azure;
+			padding-top: 10px;
+		}
+		table{
+			background-color: orange;
+			margin-top: 20px;
+			padding-top: 0px;
+			width: 100%;
+		}
+		td{
+			font-size: 20px;
+			font-weight: 2px;
+		}
+		footer {
+			margin-top: 0px;
+			color: azure;
+			background-color: darkblue;
+			font-size: 28px;
+			border-bottom: 0px;
+		}
+		footer:hover{
+			position:center solid orange;
+		}
+		footer>a:hover{
+			position:center solid orange;
+			text-decoration: none;
+			font-family: serif;
+			background-color: orange;
+			padding-left: 20px;
+			font-size: 40px;
+		}
+	</style>
+	<table align="center">
+		<thead>
+			<tr>
+				<td align="center">Pyrax Technologies</td>
+			</tr>
+		</thead>
+	</table>
+</head>
+
+<body class="bg">
+	<div class="page">
+		<header class="header2" align="center">
+			<em>Linux Maniac!</em>
+		</header>
+		<nav>
+			<a href="">Home</a>
+			<a href="linux.html">Linux</a>
+			<a href="">Kernel</a>
+			<a href="">Opensource</a>
+			<a href="">Blog</a>
+		</nav>
+<section>
+	<h1>
+		About Pyrax Technologies
+	</h1>
+	<p>I am Passionate about<em> Linux Systems</em> and  <em>OpenSource technologies<em>. I am a <em>Formula 1</em> fan </p>
+</section>
+	</div>
+</body>
+
+	<footer align="center">
+		<a href=""><em>Pyrax Technologies || Opensource Maniacs</em></a>
+	</footer>
+</html>
