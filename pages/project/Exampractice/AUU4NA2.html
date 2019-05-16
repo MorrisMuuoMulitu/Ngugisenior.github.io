@@ -1,0 +1,70 @@
+
+<html>
+<head>
+<title>Progress Bar</title>
+<script>
+var progValue = 1;
+function setProgressValue(value){
+	if(value < 0)
+		value = 0;
+	if(value > 100)
+		value = 100;
+	
+	progValue = value;
+	var elem = document.getElementById("myBar"); 
+	elem.style.width = progValue + '%';
+}
+function addProgress(value){
+	setProgressValue(progValue+value);
+}
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        setProgressValue(100);
+    }
+    else if (e.keyCode == '40') {
+        setProgressValue(0);
+    }
+    else if (e.keyCode == '37') {
+       addProgress(-10);
+    }
+    else if (e.keyCode == '39') {
+       addProgress(10);
+    }
+
+}
+</script>
+<style>
+#myProgress {
+  width: 100%;
+  background-color:green;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color:orange;
+}
+</style>
+</head>
+<body>
+<h1>Quiz 2</h1>
+<br>
+<h2>CheatSheet</h2>
+<p>UP - 100%</p>
+<p>Down - 0%</p>
+<p>Left - -10%</p>
+<p>Right - +10%</p>
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+<script>
+
+</script>
+</body>
+</html>
