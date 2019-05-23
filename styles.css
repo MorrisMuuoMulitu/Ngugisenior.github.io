@@ -89,32 +89,26 @@ div{
 	border-radius: 10px;
 }
 #footer{
-	background-color:azure;
 	
 	list-style: none;
-	color:darkblue;
 	border-color: silver;
 	border-radius: 10px;
 	border-style: groove;
 }
 #footer_references{
-	background-color:azure;
 	text-decoration-line: none;
 	text-decoration:none;
-	color: blue;
+	color: azure;
 	text-align: center justify;
 }
 #footerhead{
-	background-color:azure;
 	padding-top: 20px;
 	color: azure;
 }
 #floatleft{
-	background-color:azure;
 	float: left;
 }
 #floatright{
-	background-color:azure;
 	float: right;
 }
 
