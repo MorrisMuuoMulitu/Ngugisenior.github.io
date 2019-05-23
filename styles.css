@@ -110,9 +110,11 @@ div{
 	color: azure;
 }
 #floatleft{
+	background-color:azure;
 	float: left;
 }
 #floatright{
+	background-color:azure;
 	float: right;
 }
 
