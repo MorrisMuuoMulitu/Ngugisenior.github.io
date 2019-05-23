@@ -99,9 +99,10 @@ div{
 	border-style: groove;
 }
 #footer_references{
+	background-color:azure;
 	text-decoration-line: none;
 	text-decoration:none;
-	color: azure;
+	color: blue;
 	text-align: center justify;
 }
 #footerhead{
