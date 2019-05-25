@@ -25,11 +25,21 @@
 	color: black;
 	font-size: 30px;
 }
+#containerTwo{
+	border-radius: 20px;
+	border-color: silver;
+	border-width: 2px;
+	border-style: groove;
+	margin: 20px;
+	background-color: darkgray;
+}
 #main{
 	margin-top: 20px;
 	display: -webkit-flex; /* Safari */
 	display: flex;
 	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 
 }
 #main div{
