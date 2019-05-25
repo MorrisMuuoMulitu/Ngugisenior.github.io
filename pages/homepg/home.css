@@ -1,68 +1,14 @@
-#top{
-	border-style: groove;
-	border-width: 20px;
-	border-radius: 30px;
-	height:100%;
-	border-color:#4d004d;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-#home{
-	background-color: #404040;
-}
-#body{
-	background-color:#33001a;
-}
-#img0{
-	margin-top: 100px;
-	margin-left: 50%;
-}
-#img-circle{
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-}
-#head{
-	text-align: center;
+#div{
+	background-image: url(../pictures/0.png);
+	background-color: gray;
+	background-blend-mode: luminosity;
+	height: 1400px;
 	color: azure;
-	font-weight: bold;
-	background-color: darkblue;
-	border-style: groove;
-	border-radius: 30px;
-	border-color: orange;
-}
-#tr{
-	margin:30px;
-}
-#divider{
-	margin: 30px;
-	height: 20px;
-	margin-top: 20px;
+	padding:20px;
+	margin: 20px;
+	font-style: all;
+	border-width: 15px;
+	border-color: black;
 	border-style: groove;
 	border-radius: 20px;
-	border-width: 10px;
-	padding-top: 10px;
-	text-align: center;
-	color: azure;
-}
-table{
-	background-color: brown;
-	margin-top: 30px;
-	margin-left: 650px;
-	border-spacing: 15px;
-	border-radius: 10px;
-}
-td{
-
-	background-color: darkblue;
-	color: azure;
-	border-collapse: collapse;
-	border-style: groove;
-	border-width: 5px;
-	border-left: 5px;
-	border-radius: 10px;
-	border-color: orange;
-
 }
