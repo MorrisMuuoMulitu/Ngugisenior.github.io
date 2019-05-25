@@ -1,5 +1,6 @@
 #div{
 	background-image: url(../pictures/0.png);
+	background-attachment: fixed;
 	background-color: gray;
 	background-blend-mode: luminosity;
 	height: 1400px;
@@ -11,4 +12,24 @@
 	border-color: black;
 	border-style: groove;
 	border-radius: 20px;
+}
+#main{
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	padding-left: 10px;
+
+}
+#main div{
+	padding: 10px;
+	margin: 3px;
+	color: darkgreen;
+	border-style: groove;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 20px;
+	width: 350px;
+	height: 250px;
+	background-color: gray;
+	background-blend-mode: luminosity;
+
 }
