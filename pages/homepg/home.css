@@ -12,6 +12,7 @@
 	border-color: black;
 	border-style: groove;
 	border-radius: 20px;
+	max-width: 100%;
 }
 #containerOne{
 	text-align: center;
@@ -26,23 +27,30 @@
 	font-size: 30px;
 }
 #containerTwo{
+	width: auto;
 	border-radius: 20px;
 	border-color: silver;
 	border-width: 2px;
 	border-style: groove;
 	margin: 20px;
-	background-color: darkgray;
+	background-color: lavender;
+	padding: 20px;
+	max-height: 100%;
+	max-width: 100%;
 }
 #main{
-	margin-top: 20px;
+	width: auto;
+	margin:auto;
 	display: -webkit-flex; /* Safari */
 	display: flex;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 0px;
 	padding-bottom: 10px;
+
 }
 #main div{
-	padding: 40px;
+	padding-right: 40px;
+	padding-left: 20px;
 	margin-left: 30px;
 	font-family: sans-serif;
 	font-style: italic;
@@ -52,7 +60,6 @@
 	border-color: black;
 	border-radius: 20px;
 	width: 350px;
-	height: 550px;
 	background-color: gray;
 	background-blend-mode: luminosity;
 
