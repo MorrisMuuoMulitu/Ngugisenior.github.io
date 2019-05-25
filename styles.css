@@ -12,6 +12,8 @@
 body{
 	background: url(pages/pictures/backg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
 	color: azure;
+	background-attachment: fixed;
+	background-blend-mode:darken;
 }
 div{
 	padding-left: 20px;
