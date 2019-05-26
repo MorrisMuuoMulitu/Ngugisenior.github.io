@@ -25,37 +25,50 @@ div{
 	vertical-align: middle;
 	text-align: middle;
 }
-#nav{
-	border-style: groove;
-	border-left: dotted;
-	border-right: dotted;
-	border-radius: 35px;
-	height: 40px;
-	position: middle;
+table{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	color: azure;
+}
+ul{
 	text-align: center;
-	border-color: silver;
-	background-color: #1a0033;
-	border-width: 5px;
-	font-weight: bold;
+	margin-left: 10px;
+	color: azure;
 }
-#navlinks{
-	text-decoration-line: none;
-	border-style: groove;
-	border-radius: 10px;
+ul#nav{
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	background-color: transparent;
+}
+ul#nav li {
+	margin-left: 40px;
+	display: inline;
+}
+#link{
+	font-size: 30px;
+	font-family: fantasy;
+	font-style: oblique;
+	color: azure;
 	text-decoration: none;
-	color:azure;
-	background-color: 	#330033;
-	padding-left: 50px;
-	padding-right: 50px;
+	text-decoration-line: none;
+	transition: transform .2s;
 }
-
+hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
 #head{
 	position: middle;
 	text-align: center;
 	border-style: groove;
 	border-color: 	#9a83af;
 	background-color: #1a001a;
+	border-bottom: 15px;
 	border-radius: 30px;
+	border-left: none;
+	border-right: none;
 }
 #body{
 	margin-left: 30px;
@@ -66,7 +79,9 @@ div{
 	text-indent: 50px;
 	border-color: #0d0033;
 	border-radius: 15px;
-	border-style: groove;
+	border-style: ridge;
+	border-right: dotted;
+	border-left: dotted;
 	background: url(pictures/backg.jpg);
 }
 #pabout{
@@ -92,6 +107,8 @@ div{
 	border-style: ridge;
 	border-width: 10px;
 	border-radius: 10px;
+	border-right: dotted;
+	border-left: dotted;
 }
 #footer{
 	list-style: none;
