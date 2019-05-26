@@ -14,4 +14,8 @@
 	max-height: 100%;
 	margin: 120px;
 	border-radius: 30px;
+	transition: transform .2s;
+}
+#images:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
