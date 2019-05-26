@@ -8,6 +8,8 @@
 	border-left-color: lightgreen;
 	border-right-color: lightgreen;
 	border-radius: 40px;
+	border-right: dotted;
+	border-left: dotted;
 }
 body{
 	background: url(pages/pictures/backg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
@@ -25,6 +27,8 @@ div{
 }
 #nav{
 	border-style: groove;
+	border-left: dotted;
+	border-right: dotted;
 	border-radius: 35px;
 	height: 40px;
 	position: middle;
@@ -85,7 +89,7 @@ div{
 	color: azure;
 	position: middle;	
 	text-align: justify-all;
-	border-style: dashed;
+	border-style: ridge;
 	border-width: 10px;
 	border-radius: 10px;
 }
@@ -94,6 +98,8 @@ div{
 	border-color: silver;
 	border-radius: 10px;
 	border-style: groove;
+	border-left: dotted;
+	border-right: dotted;
 }
 #footer_references{
 	text-decoration-line: none;
