@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Arizonia-Regular.ttf);
+}
 #div{
 	background-image: url(../pictures/0.png);
 	background-attachment: fixed;
-	background-color: gray;
+	background-color: lightgreen;
 	background-blend-mode: luminosity;
 	height: 1400px;
 	color: azure;
@@ -24,7 +29,9 @@
 	font-family: fantasy;
 	font-style: italic;
 	color: black;
-	font-size: 30px;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: myFirstFont;
 }
 #containerTwo{
 	display: flex;
