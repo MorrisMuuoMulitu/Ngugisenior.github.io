@@ -26,13 +26,11 @@ div{
 #nav{
 	border-style: groove;
 	border-radius: 35px;
-	height: 30px;
-	
+	height: 40px;
 	position: middle;
 	text-align: center;
 	border-color: silver;
 	background-color: #1a0033;
-	padding-top: 30px;
 	border-width: 5px;
 	font-weight: bold;
 }
@@ -46,6 +44,7 @@ div{
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
 #head{
 	position: middle;
 	text-align: center;
