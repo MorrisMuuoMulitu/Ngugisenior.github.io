@@ -9,10 +9,10 @@
 	background-blend-mode:darken;
 	margin: 0px;
 	height: 1400px;
-	border-color: red;
+	border-color: black;
 	border-style: groove;
-	border-radius: 10px;
-	border-width: 5px;
+	border-radius: 35px;
+	border-width: 30px;
 	text-align: center;
 	color:azure;
 	font-size: 20px;
@@ -31,6 +31,7 @@ header{
 	font-style: italic;
 }
 #main {
+	background-color: #1a001a;
 	background-image: url(../pictures/2018-mercedes-benz-x-class-26.jpg);
 	background-attachment: fixed;
 	background-blend-mode: darken;
@@ -47,7 +48,7 @@ header{
 }
 #main div {
 	color:lavender;
-	background-image: url(../pictures/2018-mercedes-benz-x-class-26.jpg);
+	background-image: url(../pictures/Ford\ Ranger.jpg);
 	background-attachment: fixed;
 	background-blend-mode: luminosity;
 	max-height: 100%;
@@ -59,14 +60,30 @@ header{
   -ms-flex: 1;  /* IE 10 */  
   flex: 1;
 }
-#main div:hover{
-	transform: scale(1.5);
+#exthover:hover{
+	transform: scale(1.2);
+}
+#mhover:hover{
+	transform: scale(1.8);
 }
 p{
+	margin: auto;
+	padding: auto;
+	width: 500px;
 	font-family: myFirstFont;
-	font-size: 15px;
+	font-size: 25px;
 	background-color: darkgray;
-	color: azure;
+	color: darkblue;
 	justify-content: all;
 	background-blend-mode: darken;
+}
+a{
+	text-decoration: none;
+	text-decoration-line: none;
+}
+#container-2{
+	height: 200px;
+	max-width: 100%
+	background-image:url(../pictures/DSC_0068.jpg);
+	background-attachment: fixed;
 }
