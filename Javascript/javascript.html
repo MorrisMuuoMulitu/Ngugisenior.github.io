@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="javascript.css">
+	<h1></h1>
 		<script type="text/javascript">
 		document.write("Kepler Technologies");
 
@@ -38,6 +40,8 @@
 		}
 		for(i=0; i<5; i++){
 			document.write("<br>"+"This is iteration "+i + "<br>")
+			var myHeading = document.querySelector('h1');
+			myHeading.textContent = 'Kepler Technologies';
 		}
 	</script>
 </body>
