@@ -6,3 +6,7 @@ h1{
 	font-weight: bold;
 	background-color: skyblue;
 }
+#nav{
+	background-color: gray;
+	color: azure;
+}
