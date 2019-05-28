@@ -111,6 +111,8 @@ hover{
 	border-left: dotted;
 }
 #footer{
+	text-align: right;
+	color:azure;
 	list-style: none;
 	border-color: silver;
 	border-radius: 10px;
