@@ -23,8 +23,10 @@
 	transition: transform .2s;
 }
 #footer{
+	margin:auto;
+	padding:auto;
 	background-color:#260033;
-	text-align:right;
+	text-align:center;
 	color:azure;
 }
 #images:hover {
