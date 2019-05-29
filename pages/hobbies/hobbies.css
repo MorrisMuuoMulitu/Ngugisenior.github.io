@@ -32,9 +32,11 @@
 	padding-top:10px;
 	background-color:#260033;
 	text-align:center;
+	transition:transform .3s;
 	color:azure;
 }
 #footer,#images:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 
