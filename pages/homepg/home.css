@@ -8,7 +8,7 @@ body{
     background-image: url(../pictures/redbulll.jpg);
     background-attachment: fixed;
     background-repeat: round;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     flex-wrap: wrap;
     border-top: dotted;
@@ -16,14 +16,16 @@ body{
     border-style: ridge;
     border-left: none;
     border-right: none;
+    letter-spacing: 2px;
 }
 #header{
     position: fixed;
     float: left;
     margin-right: 10px;
     margin-left: auto;
-    width: 280px;
+    width: 300px;
     margin-top: 40px;
+    transition: transform .2s;
 }
 #header ul{
     list-style: none;
@@ -40,6 +42,8 @@ body{
 /* mouse over link */
 #header ul li a:hover {
   color: hotpink;
+  font-family: fantasy;
+  font-size: 40px;
 }
 /* selected link */
 #header ul li a:active{
@@ -77,15 +81,12 @@ body{
     margin-top: 40px;
     height: 1200px;
 }
-.panel--red {
-  /* perspective function in transform property */
-  transform: perspective(400px) rotateY(45deg);
-}
-.scene--blue {
-  /* perspective property */
-  perspective: 400px;
-}
-
-.panel--blue {
-  transform: rotateY(45deg);
+#footer{
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 1000px;
+    margin-right: auto;
+    height: 30px;
+    font-family: fantasy;
+    font-size: 25px;
 }

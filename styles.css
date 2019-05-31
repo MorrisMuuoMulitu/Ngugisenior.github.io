@@ -1,4 +1,5 @@
 #topp{
+	font-family: fantasy;
 	margin:20px;
 	height: 90%;
 	border-style:groove;
@@ -10,8 +11,10 @@
 	border-radius: 40px;
 	border-right: dotted;
 	border-left: dotted;
+	letter-spacing: 2px;
 }
 body{
+	font-family: fantasy;
 	background: url(pages/pictures/backg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
 	color: azure;
 	background-attachment: fixed;
