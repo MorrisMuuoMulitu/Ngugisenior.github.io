@@ -1,0 +1,25 @@
+#container{
+	height: 40px;
+	position: fixed;
+	display: flex;
+}
+#heading{
+	margin-left: 400px;
+	float: center;
+	text-align: center;
+	color: azure;
+	font-family: fantasy;
+	padding-top: 20px;
+	font-size: 30px;
+}
+#container img{
+	clear: both;
+	float: left;
+	background-color: #993300;
+	max-height: 100px;
+	width: 100px;
+}
+body{
+	font-family: fantasy;
+	background-color: #993300;
+}

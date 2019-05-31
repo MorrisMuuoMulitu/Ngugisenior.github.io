@@ -65,6 +65,11 @@ body{
     height: 1200px;
     width: 400px;
 }
+#container p{
+    padding-left: 5px;
+    font-family: fantasy;
+    color: lightgreen;
+}
 #container-2{
     background-image: url(../pictures/immm.jpg);
     background-attachment: fixed;

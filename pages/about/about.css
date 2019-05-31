@@ -1,8 +1,8 @@
 body{
   height:1000px;
+  background-color: #666633;
   background-image: url(../pictures/default.jpg);
   background-attachment: fixed;
-  background-color: #EEEEEE;
   font-family:Helvetica,Arial,san-serif;
   letter-spacing: 2px;
 }
