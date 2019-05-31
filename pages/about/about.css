@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   background-color: #EEEEEE;
   font-family:Helvetica,Arial,san-serif;
+  letter-spacing: 2px;
 }
 a{
   text-decoration:none;
