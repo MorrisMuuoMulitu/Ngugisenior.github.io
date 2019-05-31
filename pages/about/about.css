@@ -5,13 +5,6 @@ body{
   background-color: #EEEEEE;
   font-family:Helvetica,Arial,san-serif;
 }
-#container{
-  margin-top: 30px;
- background-color: #1a0000;
-  width:1000px;
-  margin-left:auto;
-  margin-right:auto;
-}
 a{
   text-decoration:none;
   color:skyblue;
@@ -19,6 +12,10 @@ a{
 #header{
   border-width:15px;
   border-radius:20px;
+  border-bottom: dotted;
+  border-left: none;
+  border-right: none;
+  border-top: dotted;
   border-style:ridge;
   background-color: #66CCff;
   color: white;
@@ -29,39 +26,83 @@ h1,h2,h3{
   margin:0px;
 }
 #content{
-  padding:10px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top: 40px;
+  height: 800px;
+  width: 1200px;
+  padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
 }
 #nav{
-  border-width:15px;
-  border-radius:20px;
-  border-style:ridge;
+  position: fixed;
+  padding-left: 5px;
+  border-radius: 20px;
   background-color:lavender;
-  width:180px;
+  width:200px;
   float:left;
+  margin-right: 20px;
+  transition: transform .2s;
+}
+#nav ul{
+  list-style: none;
+  padding:0;
+}
+#nav ul li a{
+  color: skyblue;
+  text-decoration-line: none;
+  text-decoration: none; 
+}
+#nav ul li a:hover{
+  color: #663333;
+  font-size: 30px;
+  font-family: fantasy;
 }
 #main{
+  margin-left: 210px;
   color: azure;
   padding-left: 20px;
   border-width:15px;
   border-radius:20px;
+  border-left: dotted;
+  border-right: dotted;
+  border-top: dashed;
+  border-bottom: dashed;
   border-style:ridge;
-  width:600px;
-  float:right;
+  width:500px;
+  float:center;
+}
+#rightcontainer{
+  background-color: transparent;
+  color: azure;
+  width: 300px;
+  float: right;
+  text-align: left;
+  justify-content: space-around;
+  border-width: 15px;
+  border-radius: 20px;
+  border-left: dotted;
+  border-top: dashed;
+  border-right: none;
+  border-bottom: dotted;
+  border-style: groove;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 #footer{
+  margin-top: 20px;
   clear:both;
-  padding:10px;
-  background-color: #999;
+  background-color: #66CCff;
   color:azure;
   text-align:right;
   border-width:15px;
   border-radius:20px;
+  border-bottom: dotted;
+  border-left: none;
+  border-right: none;
+  border-top: dotted;
   border-style:ridge;
 }
-#nav .selected{
-  font-weight:bold;
-}
-#nav ul{
-  list-style-type:none;
-  padding:0;
-}
+
