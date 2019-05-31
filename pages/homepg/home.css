@@ -1,55 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@font-face {
-    font-family: myFirstFont;
-    src: url(../fonts/Arizonia-Regular.ttf);
-}
-
-body {
-    color: azure;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto;
-    padding-right: auto;
-    background-image: url(../pictures/rdbull.jpg);
+body{
+    background-image: url(../pictures/kepler.jpg);
     background-attachment: fixed;
-    width: 800px;
+    background-repeat: repeat-x;
+    background-color: darkgrey;
+    background-blend-mode: darken;
 }
-
-#div-1 {
-    border-radius: 20px;
-    border-style: outset;
-    border-width: 10px;
-    height: 400px;
-    float: left;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    background-color: blueviolet;
-}
-
-#div-2 {
-    border-radius: 20px;
-    border-style: outset;
-    border-width: 10px;
-    height: 400px;
-    float: right;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    background-color: indigo;
-}
-
-#footer {
-    margin-top: 40px;
-    border-radius: 20px;
-    border-style: outset;
-    border-width: 10px;
-    padding-top: 20px;
-    clear: both;
-    text-align: center;
-    background-color: #1a0033;
+#header{
     color: azure;
+    height: 40px;
+    position: fixed;    
+}
+#header ul{
+    list-style: none;
+}
+ .a{
+    color: azure;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+#container{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-width: 5px;
+    width: 800px;
+    height: 1400px;
+    color: azure;
+    background-image: url(../pictures/red.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    
 }
