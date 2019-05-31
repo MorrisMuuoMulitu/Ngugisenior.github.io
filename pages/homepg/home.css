@@ -1,35 +1,91 @@
 body{
-    background-image: url(../pictures/kepler.jpg);
+    padding: 5px;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: azure;
+    background-image: url(../pictures/redbulll.jpg);
     background-attachment: fixed;
-    background-repeat: repeat-x;
-    background-color: darkgrey;
-    background-blend-mode: darken;
+    background-repeat: round;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-style: ridge;
+    border-left: none;
+    border-right: none;
 }
 #header{
-    color: azure;
-    height: 40px;
-    position: fixed;    
+    position: fixed;
+    float: left;
+    margin-right: 10px;
+    margin-left: auto;
+    width: 280px;
+    margin-top: 40px;
 }
 #header ul{
     list-style: none;
 }
- .a{
-    color: azure;
-    text-decoration: none;
+/* unvisited link */
+#header ul li a:link{
     text-decoration-line: none;
-    text-decoration-color: none;
-}
-#container{
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: ridge;
-    border-width: 5px;
-    width: 800px;
-    height: 1400px;
     color: azure;
-    background-image: url(../pictures/red.jpg);
-    background-repeat: repeat-y;
+}
+/* visited link */
+#header ul li a:visited{
+    color: green;
+}
+/* mouse over link */
+#header ul li a:hover {
+  color: hotpink;
+}
+/* selected link */
+#header ul li a:active{
+    color: skyblue;
+}
+
+#container{
+    background-image: url(../pictures/immm.jpg);
     background-attachment: fixed;
-    
+    border-width: 10px;
+    border-radius: 20px;
+    border-right: dotted;
+    border-style: groove;
+    border-left: dotted;
+    float: center;
+    margin-right: 10px;
+    margin-left: 360px;
+    margin-top: 40px;
+    height: 1200px;
+    width: 400px;
+}
+#container-2{
+    background-image: url(../pictures/immm.jpg);
+    background-attachment: fixed;
+    border-width: 10px;
+    border-radius: 20px;
+    border-left: dotted;
+    border-style: groove;
+    border-right: dotted;
+    float: right;
+    clear: all;
+    width: 350px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: 40px;
+    height: 1200px;
+}
+.panel--red {
+  /* perspective function in transform property */
+  transform: perspective(400px) rotateY(45deg);
+}
+.scene--blue {
+  /* perspective property */
+  perspective: 400px;
+}
+
+.panel--blue {
+  transform: rotateY(45deg);
 }
