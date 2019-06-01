@@ -28,36 +28,30 @@ div{
 	vertical-align: middle;
 	text-align: middle;
 }
-table{
+.table{
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
 	color: azure;
 }
-ul{
-	text-align: center;
-	margin-left: 10px;
-	color: azure;
-}
-ul#nav{
-	min-width: 696px;
+.table ul{
 	list-style: none;
-	padding-top: 20px;
-	background-color: transparent;
+	margin-left: 500px;
+	margin-right: auto;
+	display:inline-flex;
 }
-ul#nav li {
-	margin-left: 40px;
-	display: inline;
-}
-#link{
-	font-size: 30px;
-	font-family: fantasy;
-	font-style: oblique;
-	color: azure;
-	text-decoration: none;
+.table ul li a{
+	text-align: center;
+	margin-right: auto;
+	padding-left: 20px;
 	text-decoration-line: none;
 	transition: transform .2s;
+	
 }
-hover{
+.table ul li a:hover{
+	color: #663300;
+	font-family: fantasy;
+	font-size: 30px;
+	text-transform: uppercase;
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
@@ -100,18 +94,30 @@ hover{
 }
 
 #h1, #h2, #recursion{
+
 	padding-left: 20px;
 	margin-top: 25px;
 	border-color: #280647;
 	background-color: #271e2f;
-	color: azure;
-	position: middle;	
-	text-align: justify-all;
+	color: azure;	
+	text-align: left;
 	border-style: ridge;
 	border-width: 10px;
 	border-radius: 10px;
 	border-right: dotted;
 	border-left: dotted;
+}
+#button{
+	transition: transform .2s;
+}
+#button:hover{
+	font-family: fantasy;
+	font-size: 40px;
+	color: #333333;
+	border-radius: 15px;
+	background-color: lightgreen;
+	height: 60px;
+	width: 100px;
 }
 #footer{
 	text-align: right;

@@ -41,6 +41,7 @@ body{
 }
 /* mouse over link */
 #header ul li a:hover {
+    text-transform: uppercase;
   color: hotpink;
   font-family: fantasy;
   font-size: 40px;
