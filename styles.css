@@ -34,6 +34,7 @@ div{
 	color: azure;
 }
 .table ul{
+	position: fixed;
 	list-style: none;
 	margin-left: 500px;
 	margin-right: auto;
@@ -49,6 +50,7 @@ div{
 }
 .table ul li a:hover{
 	color: #663300;
+	background-color: dodgerblue;
 	font-family: fantasy;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -67,6 +69,9 @@ div{
 	border-left: none;
 	border-right: none;
 }
+#head h1:hover{
+	background-color: dodgerblue;
+}
 #body{
 	margin-left: 30px;
 	margin-right: 30px;
@@ -82,10 +87,14 @@ div{
 	background: url(pictures/backg.jpg);
 }
 #pabout{
-	text-align: center justify-all;
+	text-align: left;
 	padding-right: 20px;
 	padding-left: 20px;
 
+}
+::selection {
+  color: dodgerblue;
+  background: #000033;
 }
 #liskills{
 	text-align: left;
@@ -107,43 +116,80 @@ div{
 	border-right: dotted;
 	border-left: dotted;
 }
+#h1 h1:hover{
+	color: dodgerblue;
+	text-align: center;
+	text-transform: uppercase;
+}
+#h2 h2:hover{
+	color: dodgerblue;
+	text-align: center;
+	text-transform: uppercase;
+}
+#recursion h3:hover{
+	color: dodgerblue;
+	text-align: center;
+}
+#headform:hover{
+	text-align: center;
+	color: dodgerblue;
+	text-transform: uppercase;
+}
 #button{
-	transition: transform .2s;
+	margin-left: 150px;
+	text-align: center;
+	transition: width 2s;
 }
 #button:hover{
 	font-family: fantasy;
 	font-size: 40px;
+	width: 300px;
 	color: #333333;
 	border-radius: 15px;
 	background-color: lightgreen;
-	height: 60px;
-	width: 100px;
+	transition: width 300px;
+}
+#forms{
+	color: azure;
+	clear: both;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
 }
 #footer{
 	text-align: right;
 	color:azure;
 	list-style: none;
-	border-color: silver;
-	border-radius: 10px;
-	border-style: groove;
-	border-left: dotted;
-	border-right: dotted;
 }
 #footer_references{
 	text-decoration-line: none;
 	text-decoration:none;
-	color: azure;
-	text-align: center justify;
+	color: slateblue;
+	text-align: center ;
 }
 #footerhead{
+	text-align: left;
 	padding-top: 20px;
 	color: azure;
 }
+#footerhead:hover{
+	text-align: center;
+	color: dodgerblue;
+	text-transform: uppercase;
+}
 #floatleft{
 	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 #floatright{
 	float: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer a:hover{
+	color: red;
+	text-transform: uppercase;
 }
 
 

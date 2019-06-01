@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html style="background-color:#000033;">
+<meta charset="UTF-8">
 <div id="topp">
 
     <head>
@@ -29,8 +30,8 @@
         <body>
             <div id="h1">
                 <h1>About Me</h1>
-                <p id="pabout">
-                    Opensource Enthusiast, passionate about Linux Systems and Operating Systems, Self-driven and motivated,with a strong sense of ownership and craftsmanship. Quality oriented and “can-do” attitude to work. I am passionate about Linux technologies, Opensource
+                <p title="About Me" id="pabout">
+                    Opensource Enthusiast, passionate about Linux Systems and Operating Systems, Self-driven and motivated,with a strong sense of ownership and craftsmanship. Quality oriented and <q>can-do</q> attitude to work. I am passionate about Linux technologies, Opensource
                     technologies, Cyber Security and Operating Systems. I am looking for an opportunity to apply my technological and creative problem-solving skills at an innovative IT company. I am also looking for a path that would lead to a career
                     in System Engineering or Linux Administration.
                 </p>
@@ -65,21 +66,24 @@
                 <ul>
                     <li>Cycling</li>
                     <li>MotoGP</li>
-                    <p>(Monster Energy Fan)</p>
+                    <p style="background-color: dodgerblue;">(Monster Energy Fan)</p>
                     <li>Formula 1</li>
-                    <p>(RedBull fan)</p>
+                    <p style="background-color: slateblue;">(RedBull fan)</p>
                 </ul>
-                <form name="contact" method="POST" data-netlify="true">
+            </div>
+                <div id="forms">
+                    <h1 id="headform">Forms</h1>
+                <form name="contact" method="POST" data-netlify="true" autocomplete="on">
                     <p>
-                        <label>Your Name: <input type="text" name="name" /></label>   
+                        <label>Your Name: <input type="text" name="name" placeholder="your name" required/></label>   
                     </p>
                     <p>
-                        <label>Your Email: <input type="email" name="email" /></label>
+                        <label>Your Email: <input type="email" name="email" placeholder="your email" required/></label>
                     </p>
                     <p>
                         <label>Your Skills: <select name="skills[]" multiple>
-                            <option value="unix">Unix</option>
-                            <option value="Java">Java</option>
+                            <option value="unix" >Unix</option>
+                            <option value="Java" >Java</option>
                             <option value="C">C</option>
                             <option value="Web development">Web Programming</option>
                             <option value="UX">UX Design</option>
@@ -88,7 +92,7 @@
                     </label>
                 </p>
                 <p>
-                    <label>Message: <textarea name="message"></textarea></label>
+                    <label style="margin-left: 25px;">Message: <textarea name="message" placeholder="submit your comment or question" required></textarea></label>
                     </p>
                     <p>
                         <button id="button" type="submit">Send</button>
@@ -109,13 +113,14 @@
                         <li id="footer"><a id="footer_references" href="https://twitter.com/MuiruriPyrax">Twitter</a></li>
                     </ol>
                 </td>
+
                 <td id="floatright">
                     <ol>
                         <li id="footer"><a id="footer_references" href="opensource.com">Opensource</a></li>
                         <li id="footer"><a id="footer_references" href="https://www.linkedin.com/in/ngugimuiruri/">Linkeldn</a></li>
                         <li id="footer"><a id="footer_references" href="https://github.com/Ngugisenior/Ngugisenior.github.io">Github</a></li>
                         <li id="footer">
-                            <a id="footer_references" href="https://dev.to/muiruripyrax"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Pyrax_Muiruri's DEV Profile" height="30" width="30"></a>
+                            <a id="footer_references" href="https://dev.to/muiruripyrax">Dev <img style="background-color:dodgerblue;" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Pyrax_Muiruri's DEV Profile" height="30" width="30"></a>
                         </li>
 
                     </ol>
