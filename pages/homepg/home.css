@@ -5,7 +5,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     color: azure;
-    background-image: url(../pictures/redbulll.jpg);
+    background-image: url(../pictures/were.jpeg);
     background-attachment: fixed;
     background-repeat: round;
     width: 1400px;
@@ -52,7 +52,8 @@ body{
 }
 
 #container{
-    background-image: url(../pictures/immm.jpg);
+    background:transparent;
+    //background-image: url(../pictures/immm.jpg);
     background-attachment: fixed;
     border-width: 10px;
     border-radius: 20px;
@@ -65,14 +66,19 @@ body{
     margin-top: 40px;
     height: 1200px;
     width: 400px;
+    overflow-y: scroll;
 }
 #container p{
+    scroll-behavior: auto|smooth|initial|inherit;
     padding-left: 5px;
     font-family: fantasy;
-    color: lightgreen;
+    font-size: 22px;
+    color: dodgerblue;
 }
 #container-2{
-    background-image: url(../pictures/immm.jpg);
+     overflow-y: scroll;
+     background: transparent;
+    ///background-image: url(../pictures/immm.jpg);
     background-attachment: fixed;
     border-width: 10px;
     border-radius: 20px;
