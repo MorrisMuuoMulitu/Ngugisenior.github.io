@@ -43,7 +43,7 @@ body{
 	color: azure;
 }
 #navigation li a:hover{
-	font-size: 20px;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bolder;
 	color: slateblue;
@@ -67,7 +67,7 @@ body{
   color: dodgerblue;
 }
 .header h2:hover{
-	font-size: 50px;
+	font-size: 5em;
 	font-family: fantasy;
 	font-style: oblique;
 }
@@ -107,6 +107,7 @@ div{
 	border-right: none;
 }
 #head h1:hover{
+	font-size: 5em;
 	color: dodgerblue;
     color: slateblue;
 	transform:rotate(360deg);
@@ -146,7 +147,6 @@ div{
 }
 
 #h1, #h2, #recursion{
-
 	padding-left: 20px;
 	margin-top: 25px;
 	border-color: #280647;
@@ -160,6 +160,7 @@ div{
 	border-left: dotted;
 }
 #h1 h1:hover{
+	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
@@ -171,6 +172,7 @@ div{
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #h2 h2:hover{
+	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
@@ -182,6 +184,7 @@ div{
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #recursion h3:hover{
+	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	color: slateblue;
@@ -192,6 +195,7 @@ div{
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #headform:hover{
+	font-size: 5em;
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
@@ -208,6 +212,7 @@ div{
 	transition: width 2s;
 }
 #button:hover{
+	font-size: 5em;
 	color: slateblue;
 	transform:rotate(1440deg);
 	-webkit-transform:rotate(1440deg); /* Safari */
@@ -245,7 +250,7 @@ div{
 	color: azure;
 }
 #footerhead:hover{
-	font-size: 40px;
+	font-size: 5em;
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
