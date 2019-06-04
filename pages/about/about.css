@@ -59,6 +59,12 @@ h1,h2,h3{
   color: #663333;
   font-size: 30px;
   font-family: fantasy;
+    color: slateblue;
+  transform:rotate(1440deg);
+  -webkit-transform:rotate(1440deg); /* Safari */
+    text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+  transition: width 2s, height 2s, color 5s, text-shadow 2s;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #main{
   margin-left: 210px;
