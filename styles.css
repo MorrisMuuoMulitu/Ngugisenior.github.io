@@ -16,7 +16,7 @@
 }
 body{
 	font-family: fantasy;
-	background: url(pages/pictures/backg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
+	background: url(pages/pictures/immg.jpg),url("page/pictures/hilx.jpg"),url("pages/pictures/rdbull.jpg"),url(pages/pictures/hack.jpeg) darkblue;
 	color: azure;
 	background-attachment: fixed;
 	background-blend-mode:darken;
@@ -36,7 +36,7 @@ body{
 	text-align: center;
 }
 #navigation li a{
-	transition: transform .2s;
+	//transition: transform .2s;
 	text-align: center;
 	//margin-left: 500px;
 	text-decoration-line: none;
@@ -47,6 +47,10 @@ body{
 	text-transform: uppercase;
 	font-weight: bolder;
 	color: slateblue;
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 .header {
 	margin-top: 0px;
@@ -104,6 +108,12 @@ div{
 }
 #head h1:hover{
 	color: dodgerblue;
+    color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #body{
 	margin-left: 30px;
@@ -153,20 +163,44 @@ div{
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #h2 h2:hover{
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #recursion h3:hover{
 	color: dodgerblue;
 	text-align: center;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #headform:hover{
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #button{
 	margin-left: 150px;
@@ -174,6 +208,12 @@ div{
 	transition: width 2s;
 }
 #button:hover{
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+  transition: width 2s, height 2s, color 5s, text-shadow 2s;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 	font-family: fantasy;
 	font-size: 40px;
 	width: 300px;
@@ -209,6 +249,12 @@ div{
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #floatleft{
 	float: left;
@@ -223,6 +269,12 @@ div{
 #footer a:hover{
 	color: red;
 	text-transform: uppercase;
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+    transition: width 2s, height 2s, color 5s, text-shadow 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 
 

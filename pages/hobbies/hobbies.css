@@ -13,10 +13,25 @@ body{
 	margin-left: 20px;
 	width: 300px;
 	float: left;
+	background-image: url(../pictures/blog.jpg);
+	flex-wrap: scroll;
+	background-attachment: fixed;
 	background-color: #666633;
 	border-color: silver;
 	border-radius: 20px;
 	border-width: 10px;
+}
+#links h1{
+	text-align: center;
+	color: dodgerblue;
+}
+#links h1:hover{
+	color: slateblue;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+	  text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
+  transition: width 2s, height 2s, color 5s, text-shadow 2s;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #links ul{
 	list-style: none;
