@@ -1,3 +1,6 @@
+@keyframes fadein{
+	from{opacity:0} to{opacity:1}
+}
 #topp{
 	margin-top: 50px;
 	font-family: fantasy;
@@ -67,16 +70,17 @@ body{
   color: dodgerblue;
 }
 .header h2:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	font-family: fantasy;
 	font-style: oblique;
 }
 .progress-container {
 	margin-left: 0px;
-  border-radius: 20px;
-  width: 100%;
-  height: 0px;
-  background: #ccc;
+	border-radius: 20px;
+	width: 100%;
+	height: 0px;
+	background: #ccc;
 }
 
 .progress-bar {
@@ -107,6 +111,7 @@ div{
 	border-right: none;
 }
 #head h1:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	color: dodgerblue;
     color: slateblue;
@@ -137,6 +142,7 @@ div{
 
 }
 ::selection {
+	animation:fadein 3s;
   color: dodgerblue;
   background: #000033;
 }
@@ -160,48 +166,52 @@ div{
 	border-left: dotted;
 }
 #h1 h1:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #h2 h2:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	text-transform: uppercase;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #recursion h3:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	color: dodgerblue;
 	text-align: center;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
 }
 #headform:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
@@ -214,8 +224,8 @@ div{
 #button:hover{
 	font-size: 5em;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
   transition: width 2s, height 2s, color 5s, text-shadow 2s;
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
@@ -250,13 +260,14 @@ div{
 	color: azure;
 }
 #footerhead:hover{
+	animation:fadein 3s;
 	font-size: 5em;
 	text-align: center;
 	color: dodgerblue;
 	text-transform: uppercase;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
@@ -275,8 +286,8 @@ div{
 	color: red;
 	text-transform: uppercase;
 	color: slateblue;
-	transform:rotate(1440deg);
-	-webkit-transform:rotate(1440deg); /* Safari */
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
 	text-shadow: 2px 1px #2980b9, 3px 2px #2980b9, 4px 3px #2980b9, 5px 4px #2980b9, 6px 5px #2980b9, 7px 6px #2980b9; 
     transition: width 2s, height 2s, color 5s, text-shadow 2s;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s, color 2s, text-shadow 2s;
