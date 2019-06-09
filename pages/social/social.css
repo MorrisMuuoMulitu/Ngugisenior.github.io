@@ -1,25 +1,72 @@
-#container{
-	height: 40px;
-	position: fixed;
-	display: flex;
+@font-face{
+	font-family:fontOne;
+	src:url(../fonts/ubuntu/UbuntuMono-R.ttf);
 }
-#heading{
-	margin-left: 400px;
-	float: center;
-	text-align: center;
-	color: azure;
-	font-family: fantasy;
-	padding-top: 20px;
-	font-size: 30px;
-}
-#container img{
-	clear: both;
-	float: left;
-	background-color: #993300;
-	max-height: 100px;
-	width: 100px;
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+html{
+	background: #2C001E;
 }
 body{
-	font-family: fantasy;
-	background-color: #993300;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border-style: ridge;
+	border-color: black; width: 1200px;
+	background-color: #806678;
+	height: 900px;
+	background-attachment: fixed;
+}
+#header{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: auto;
+	padding-bottom: auto;
+	margin-top: 20px;
+	height: 70px;
+	background-color: #E95420;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-attachment: fixed;
+	width: 800px;
+	border-color: none;
+	border-radius: 10px;
+	border-bottom: none;
+}
+#container{
+	width: 800px;
+	height: 700px;
+	background: orange;
+	border-radius: 10px;
+	border-color: purple;
+	margin-left: auto;margin-right: auto;margin-top: 20px;
+}
+#sub-container-one,#sub-container-two{
+	background-blend-mode: darken;
+	height: 600px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 30px;
+	margin-top: 20px;
+	
+}
+#sub-container-one{background-color: skyblue;float: left; border-bottom-right-radius: 30px;}
+#sub-container-two{background-color: dodgerblue;float: right;border-bottom-right-radius: 30px;}
+article{
+	margin-top: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: fontOne;
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+}
+span{
+	transition-duration: 20s;
+	color:red;
+	font-size: 100px;
+	font-weight: bold;
 }
