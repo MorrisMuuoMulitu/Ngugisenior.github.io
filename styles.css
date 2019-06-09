@@ -1,253 +1,183 @@
-@keyframes glowing{
-	0% {background-position: 0 0;}
-	50% {background-position: 400% 0;}
-	100% {background-position: 0;}
+@font-face{
+	font-family:fontOne;
+	src:url("pages/fonts/Arizonia-Regular.ttf");
 }
-::selection{
-	color: dodgerblue;
-	text-shadow: 2px 6px slateblue;
-	background-color: #2C3940;
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+html{
+	background: url("pages/pictures/nightba.jpg");
+	background-attachment: fixed;
 }
 body{
-	background-attachment: fixed;
-	background-image: url("pages/pictures/nightba.jpg");
-}
-#container{
-	padding-top: 0px;
-	border-radius: 20px;
-	margin-top:20px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-	height: 1800px;
-	background-image: url("pages/pictures/pics.jpg");
-	background-attachment: fixed;
-	padding-top:20px;
-}
-#headerr{
-	text-align: center;
-	font-family: fantasy;
-	font-style: oblique;
-	font-size: 40px;
-	background-image: url("pages/pictures/pics.jpg");
-	background-attachment: fixed;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 20px;
-	border-style: ridge;
-	width: 1000px;
-	height: 45px;
-	font-weight: bold;
-	color: dodgerblue;
-	text-shadow: 7px 3px black;
-}
-#contentdiv{
-	width: 1000px;
-	height: 700px;
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: url("pages/pictures/pixar.jpg");
-	background-attachment: fixed;
-	border-radius: 20px;
-	display: flex;
-}
-#navigation{
-	display: flex;
-	height: 30px;
-	background: none;
-	width: 1000px;
-	text-align: center;
-}
-#navigation ul{
-	text-align: center;
-	list-style: none;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-}
-#navigation ul li {
-	display: block;
-	transition-duration: 5s;
-}
-#navigation ul li:hover{
-	cursor: pointer;
-}
-#navigation ul li a{
-	color:orange;
-	font-family: fantasy;
-	font-style: oblique;
-	text-shadow: 2px 6px dodgerblue;
-	font-size: 3em;
-	margin-left: 40px;
-	text-decoration:none;
-	border:none;
-	width: 200px;
-	height: 50px;
-	outline: none;
-	background:#111;
-	cursor: pointer;
-	position: relative;
-	z-index: 0;
-	border-radius: 10px;
-}
-#navigation ul li a:before{
-	content: '';
-	background: linear-gradient(45deg, #ff0000, #ff7300,#fffb00,#48ff00, #00ffd5,#002bff,#7a00ff,#ff00c8,#ff0000);
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	background-size: 400%;
-	z-index: -1;
-	filter: blur(5px);
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	animation: glowing 20s linear infinite;
-	opacity: 0;
-	transition: opacity .3s ease-in-out;
-	border-radius: 10px;
-}
-#navigation ul li a:active{
-	color:#000;
-}
-#navigation ul li a:active:after{
 	background: transparent;
 }
-#navigation ul li a:hover:before{
-	opacity: 1;
-}
-#navigation ul li a:after{
-	z-index: 1;
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	border-radius: 10px;
-}
-#navigation ul li ul{
-	visibility: hidden;
-	opacity: 0;
-	position: absolute;
-	transition: all 5s ease;
-	margin-top: 1rem;
-	left: auto;
-	right: auto;
-	display: none;
-	min-width: 5rem;
-}
-#navigation ul li:hover > ul,
-#navigation ul li ul:hover{
-	visibility: visible;
-	opacity: 1;
-	display: block;
-	background: slateblue;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	cursor: pointer;
-}
-#navigation ul li ul li{
-	color: #fff;
-	display: block;
-	//float: center;
-	padding: 1rem;
-	text-decoration: none;
-	position: relative;
-	transition: 5s;
-	text-align: center;
-	clear: both;
-	width: 100%;
-}
-#navigation ul li ul li a{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background: none;
-	font-style: normal;
-	text-shadow: none;
-	color: #fff;
-}
-#left{
-	color: azure;
-	padding-top: 5px;
-	margin-left:auto;
-	margin-right: auto;
-	width: 250px;
-	border-radius: 20px;
-	background-image: url("pages/pictures/maxdefault.jpg");
-	background-attachment: fixed;
-	//background-blend-mode: darken;
-	background-color: #0f0f0f;
-	padding-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-#center{
-	color: azure;
-	padding-top: 5px;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: url("pages/pictures/maxdefault.jpg");
-	background-attachment: fixed;
-	//background-blend-mode: darken;
-	background-color: #0f0f0f;
-	width: 300px;
-	border-radius: 20px;
-	padding-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-#right{
-	color: azure;
-	padding-top: 5px;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: url("pages/pictures/maxdefault.jpg");
-	background-attachment: fixed;
-	//background-blend-mode: darken;
-	background-color:  #0f0f0f;
-	width: 300px;
-	border-radius: 20px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-#footer{
-	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 300px;
-	border-radius: 10px;
-	width: 1000px;
-	background-attachment: fixed;
-	background-image: url("pages/pictures/night.jpg");
+#page{
 	border-style: ridge;
+	width: 1200px;
+	height: 1200px;
+	margin-left:auto;
+	border-radius: 11px;
+	margin-right: auto;
+}
+#navigation-tab{
+	background-color: #E95420;
+	height: 40px;
+	border-radius: 10px;
+}
+#navigation-tab ul{
+	list-style: none;
 	display: flex;
 }
-#footer ul {
-	justify-content: left;
-	margin-left: 2px;
-	list-style: none;
-}
-#footer ul li a{
-	text-decoration: none;
-	color: orange;
-	text-shadow: 2px 6px dodgerblue;
-	font-size: 3em;
-	margin-left:30px; 
-}
-#footer ul li a:hover{
-	color: dodgerblue;
-	text-shadow: 2px 6px orange;
-	font-size: 3em;
-}
-#copyright{
+#navigation-tab ul li{
+	margin-left: auto;margin-right: auto; text-align: center;
+	padding-top: auto;padding-bottom: auto;
+	color: pink;
 	font-weight: bold;
-	font-size: 20px;
-	font-family: fantasy;
-	color: azure;
-	text-align: right;
-	padding-bottom: 0px;
+	transition: width 2s;
+}
+#navigation-tab ul li a{
+	text-decoration: none;
+	color: pink;
+	font-size: 35px;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: width 2s;
+	-webkit-transition: width 2s;
+	transition-duration: 5s
+}
+#navigation-tab ul li a:hover{
+	font-family: fontOne;
+	text-transform: uppercase;
+	background: #77216F;
+}
+#content-page{
+	padding-left: 20px;
+	margin-top: 70px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2C001E;
+	background-blend-mode: darken;
+	background-attachment: fixed;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#content-page h1{
+	text-shadow: 3px 4px black;
+	padding-left: 20px;
+	color: #E95420;
+} 
+#content-page button{
+	background-color: transparent;
+	border:none;
+}
+#content-page button:hover{
+	transition-duration: 6s;
+	transform: rotate(362deg);
+}
+#content-page button h1:hover{
+	font-family: fontOne;
+	text-transform: uppercase;
+	font-size: 35px;
+	transform: rotate3d(20deg,45deg,79deg);
+	transition-duration: 6s;
+}
+article{
+	text-shadow: 5px right;
+	color: #77216F;
+}
+#profile-pic{
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 100px;
+}
+img{
+	box-shadow: 5px 5px #77216F;
+	max-height: 100%;
+	max-width: 100%;
+
+}
+#profile-pic img{
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+#profile-pic:hover{
+	z-index: 1;
+	width: 200px;
+	height: 200px;
+}
+img:hover{
+	opacity: 0;
+	transform: rotate(180deg);
+	transition-duration: 10s;
+	box-shadow: 6px 6px #E95420;
+	max-height: 100%;
+	max-width: 100%;
+}
+#resume{
+	width: 1000px;
+	background-color: #E95420;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	margin-top:30px;
+	border-radius: 10px;
+}
+#interview{
+	background-color: #77216F;
+	background-blend-mode: darken;
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#content2{
+	background-color: #56334B;
+	background-blend-mode: darken;
+	height: 400px;
+	width: 400px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: scroll;
+}
+#interview:hover{
+	transform: rotate(20deg);
+	transition-duration: 10s;
+	box-shadow: 6px 6px dodgerblue;
+}
+#content2:hover{
+	box-shadow: 6px 6px dodgerblue;
+	transform: rotate(-20deg);
+	transition-duration: 10s;
+	flex-wrap: scroll;
+}
+#formula-one{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px; 
+	height:160px; 
+}
+#formula-one:hover{
+	height: 400px;
+	width: 400px;
 }
