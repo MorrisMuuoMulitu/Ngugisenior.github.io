@@ -1,3 +1,7 @@
+@font-face{
+  font-family: fontOne;
+  src:url("../fonts/Arizonia-Regular.ttf");
+}
 body{
   height:1000px;
   background-color: #666633;
@@ -11,17 +15,28 @@ a{
   color:skyblue;
 }
 #header{
-  border-width:15px;
   border-radius:20px;
   border-bottom: dotted;
   border-left: none;
   border-right: none;
   border-top: dotted;
   border-style:ridge;
-  background-color: #66CCff;
+  background-color: #E95420;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  padding:20px;
+}
+#header:hover{
+  background-color: #77216F;
+}
+#header h1:hover{
+  font-style: normal;
+  text-transform: uppercase;
+  color: #E95420;
+  font-family: fontOne;
+  font-weight: bold;
+  font-size: 34px;
 }
 h1,h2,h3{
   margin:0px;
@@ -55,8 +70,16 @@ h1,h2,h3{
   text-decoration-line: none;
   text-decoration: none; 
 }
+#nav ul li:nth-child(2n+1):hover{
+  background-color: #2C001E;
+  border-radius: 5px;
+}
+#nav ul li:nth-child(2n+2):hover{
+  background-color: #E95420;
+  border-radius: 5px;
+}
 #nav ul li a:hover{
-  color: #663333;
+  color: #77216F;
   font-size: 30px;
   font-family: fantasy;
     color: slateblue;
@@ -97,6 +120,14 @@ h1,h2,h3{
   margin-left: 10px;
   padding-top: 10px;
   padding-left: 10px;
+}
+#rightcontainer ul li:nth-child(2n+2):hover{
+  background-color: #E95420;
+  border-radius: 5px;
+}
+#rightcontainer ul li:nth-child(2n+1):hover{
+  background-color: #77216F;
+  border-radius: 5px;
 }
 #footer{
   margin-top: 20px;
