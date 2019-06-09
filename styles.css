@@ -85,7 +85,9 @@ body{
 }
 article{
 	text-shadow: 5px right;
-	color: #77216F;
+	color: azure;
+	font-family: monospace;
+	letter-spacing: 0.1em;
 }
 #profile-pic{
 	margin-left: auto;
@@ -134,6 +136,7 @@ img:hover{
 }
 #interview{
 	background-color: #77216F;
+	color: azure;
 	background-blend-mode: darken;
 	padding-top: 20px;
 	padding-left: 20px;
