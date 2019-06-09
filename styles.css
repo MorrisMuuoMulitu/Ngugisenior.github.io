@@ -1,7 +1,12 @@
+@keyframes glowing{
+	0% {background-position: 0 0;}
+	50% {background-position: 400% 0;}
+	100% {background-position: 0;}
+}
 ::selection{
 	color: dodgerblue;
 	text-shadow: 2px 6px slateblue;
-	background-color: orange;
+	background-color: #2C3940;
 }
 body{
 	background-attachment: fixed;
@@ -61,6 +66,13 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+#navigation ul li {
+	display: block;
+	transition-duration: 5s;
+}
+#navigation ul li:hover{
+	cursor: pointer;
+}
 #navigation ul li a{
 	color:orange;
 	font-family: fantasy;
@@ -69,13 +81,93 @@ body{
 	font-size: 3em;
 	margin-left: 40px;
 	text-decoration:none;
+	border:none;
+	width: 200px;
+	height: 50px;
+	outline: none;
+	background:#111;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
 }
-#navigation ul li a:hover{
-	color: dodgerblue;
-	text-shadow: 2px 6px orange;
-	font-style:normal;
-	font-size: 3em;
-	font-weight: bold;
+#navigation ul li a:before{
+	content: '';
+	background: linear-gradient(45deg, #ff0000, #ff7300,#fffb00,#48ff00, #00ffd5,#002bff,#7a00ff,#ff00c8,#ff0000);
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background-size: 400%;
+	z-index: -1;
+	filter: blur(5px);
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	animation: glowing 20s linear infinite;
+	opacity: 0;
+	transition: opacity .3s ease-in-out;
+	border-radius: 10px;
+}
+#navigation ul li a:active{
+	color:#000;
+}
+#navigation ul li a:active:after{
+	background: transparent;
+}
+#navigation ul li a:hover:before{
+	opacity: 1;
+}
+#navigation ul li a:after{
+	z-index: 1;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border-radius: 10px;
+}
+#navigation ul li ul{
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: all 5s ease;
+	margin-top: 1rem;
+	left: auto;
+	right: auto;
+	display: none;
+	min-width: 5rem;
+}
+#navigation ul li:hover > ul,
+#navigation ul li ul:hover{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	background: slateblue;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	cursor: pointer;
+}
+#navigation ul li ul li{
+	color: #fff;
+	display: block;
+	//float: center;
+	padding: 1rem;
+	text-decoration: none;
+	position: relative;
+	transition: 5s;
+	text-align: center;
+	clear: both;
+	width: 100%;
+}
+#navigation ul li ul li a{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: none;
+	font-style: normal;
+	text-shadow: none;
+	color: #fff;
 }
 #left{
 	color: azure;
