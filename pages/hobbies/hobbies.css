@@ -10,8 +10,8 @@ body{
 	margin-top: 40px;
 	font-family: fantasy;
 	margin-right: auto;
-	margin-left: 20px;
-	width: 300px;
+	margin-left: auto;
+	width: 200px;
 	float: left;
 	background-image: url(../pictures/blog.jpg);
 	flex-wrap: scroll;
@@ -49,18 +49,10 @@ body{
 	background-color: lightgreen;
 }
 #container-1{
-	/*margin: 20px;*/
-	float: right;
-	border-width:10px;
-	border-radius: 20px;
-	height: 100%;
-	background-image: url(../pictures/capbull.png);
-	background-color: darkgrey;
-	background-attachment: fixed;
-	margin-left:auto;
-	margin-right:20px;
-	margin-top:5px;
-	margin-bottom:5px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: darkred;
 }
 #images{
 	margin-left:auto;
@@ -76,6 +68,17 @@ body{
 	margin: 120px;*/
 	border-radius: 30px;
 	transition: transform .2s;
+}
+#images:hover{
+	transition-duration: 5s;
+	transform: rotate(150deg);
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+img:hover{
+	transition-duration: 5s;
 }
 #footer{
 	

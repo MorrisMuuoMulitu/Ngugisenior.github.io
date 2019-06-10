@@ -57,7 +57,8 @@ body{
 	margin-right:auto;
 	margin-left: auto;
 	margin-top: 70px;
-	background-color: darkblue;
+	background-color: purple;
+	border-radius: 20px;
 	background-blend-mode: darken;
 }
 #square{
