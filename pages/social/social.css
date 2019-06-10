@@ -2,6 +2,10 @@
 	font-family:fontOne;
 	src:url(../fonts/ubuntu/UbuntuMono-R.ttf);
 }
+@font-face{
+	font-family: fontTwo;
+	src:url("../fonts/Arizonia-Regular.ttf");
+}
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -69,4 +73,47 @@ span{
 	color:red;
 	font-size: 100px;
 	font-weight: bold;
+}
+#left-nav{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	float: left;
+	width: 160px;
+	height:160px;
+	background-color: purple;
+}
+#left-nav ul{
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+}
+#left-nav ul li{
+	margin-right: auto;
+	margin-left: auto;
+}
+#left-nav ul li a{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: #E95420;
+}
+#left-nav ul li:nth-child(2n+1):hover{
+	margin-right: auto;
+	margin-left: auto;
+	background-color:azure;
+	font-weight: bold;
+	color: azure;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: fontTwo;
+}
+#left-nav ul li:nth-child(2n+2):hover{
+	color: azure;
+	font-weight: bold;
+	background-color: lightgreen;
+	border-radius: 5px;
+	font-family: fontOne;
+	font-size: 30px;
 }
