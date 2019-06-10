@@ -15,7 +15,7 @@ body{
 #page{
 	border-style: ridge;
 	width: 1200px;
-	height: 1200px;
+	//height: 1200px;
 	margin-left:auto;
 	border-radius: 11px;
 	margin-right: auto;
@@ -50,6 +50,25 @@ body{
 	font-family: fontOne;
 	text-transform: uppercase;
 	background: #77216F;
+}
+#adverts{
+	width: 1000px;
+	height: 1200px;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 70px;
+	background-color: darkblue;
+	background-blend-mode: darken;
+}
+#square{
+	height: 160px;
+	width: 160px;
+	border-radius: 170px;
+	border-width: 2px;
+	border-color: #77216F;
+	background-color: azure;
+	margin-left: auto;
+	margin-right: auto;
 }
 #content-page{
 	padding-left: 20px;
@@ -96,18 +115,21 @@ article{
 	height: 100px;
 }
 img{
-	box-shadow: 5px 5px #77216F;
+	//box-shadow: 5px 5px #77216F;
 	max-height: 100%;
 	max-width: 100%;
 
 }
 #profile-pic img{
 	position: absolute;
+	border-radius: 30px;
+	border-color: #77216F;
     top: 20%;
     left: 50%;
     width: 120px;
     height: 120px;
     margin:-60px 0 0 -60px;
+    overflow: visible;
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
