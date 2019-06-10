@@ -10,9 +10,11 @@
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 html{
+	background-image: url("../pictures/bggg.jpg");
 	background: #2C001E;
 }
 body{
+	background-image: url("../pictures/bggg.jpg");
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
