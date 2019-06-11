@@ -19,6 +19,7 @@ body{
 	margin-left:auto;
 	border-radius: 11px;
 	margin-right: auto;
+	padding-bottom: 30px;
 }
 #navigation-tab{
 	background-color: #E95420;
@@ -51,8 +52,27 @@ body{
 	text-transform: uppercase;
 	background: #77216F;
 }
+#eveng{
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 700px;
+	background-size: contain,cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat:round;
+    margin-top: 20px;
+	background: url("pages/pictures/evening.webp");
+	background-attachment: fixed;
+	max-height: 100%;
+	max-width: 100%;
+}
 #square{
-	margin-top: 6%;
+	max-height: 100%;
+	max-width: 100%;
+	background: url("pages/pictures/evening.webp");
+	margin-top: 5%;
 	height: 160px;
 	width: 160px;
 	border-radius: 170px;
@@ -64,6 +84,8 @@ body{
 }
 #content-page{
 	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 	margin-top: 70px;
 	width: 1000px;
 	margin-right: auto;
@@ -95,10 +117,25 @@ body{
 	transition-duration: 6s;
 }
 article{
+	padding-left: 20px;
+	background:url("pages/pictures/imgsrc.jpeg");
+	background-attachment: fixed;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	text-shadow: 5px right;
 	color: azure;
+	font-size: 20px;
 	font-family: monospace;
 	letter-spacing: 0.1em;
+}
+#article img{
+	max-height: 100%;
+	max-width: 100%;
+}
+#Rally{
+	width: 900px;
+	height: 200px;
 }
 #profile-pic{
 	margin-left: auto;
@@ -184,4 +221,32 @@ img{
 #formula-one:hover{
 	height: 400px;
 	width: 400px;
+}
+#ralshow{
+	background-color: skyblue;
+	margin-top: 20px;
+}
+#ralshow img{
+	margin-top: 3px;
+	border-radius: 30px;
+}
+#audi img{
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	max-height: 100%;
+	max-width: 100%;
+}
+#ralshow img:nth-child(2n+1):hover{
+	border-color: darkorange;
+	border-width: 5px;
+	transform: rotate(45deg);
+	transition-duration: 10s;
+}
+#ralshow img:nth-child(2n+2):hover{
+	transition-duration: 10s;
+	border-color: lightgreen;
+	border-width: 5px;
+	transform: rotate(-45deg);
 }
