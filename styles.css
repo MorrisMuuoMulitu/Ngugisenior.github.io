@@ -2,9 +2,6 @@
 	font-family:fontOne;
 	src:url("pages/fonts/Arizonia-Regular.ttf");
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 html{
 	background: url("pages/pictures/nightba.jpg");
 	background-attachment: fixed;
@@ -144,45 +141,37 @@ article{
 	margin-left: auto;
 	height: 200px;
 	width: 200px;
-	border-radius: 60px;
+	border-radius: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url("pages/pictures/evening.webp");
 }
-#profile-pic{
-	margin-top:40px;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	width: 160px;
-	height: 100px;
-}
 img{
 	margin-top: 20px;
-	border-radius: 30px;
+	border-radius: 80px;
 	max-height: 100%;
 	max-width: 100%;
-
 }
 #pprofile{
 	margin-right: auto;
 	margin-left:auto;
 	height: 160px;
 	width: 160px;
+	margin-bottom: auto;
+	margin-top: auto;
 }
-#profile-pic img{
-	position: absolute;
-	border-radius: 30px;
-	border-color: #77216F;
-    top: 20%;
-    left: 50%;
-    width: 120px;
-    height: 120px;
-    margin:-60px 0 0 -60px;
-    overflow: visible;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
 }
 #resume{
 	width: 1000px;
