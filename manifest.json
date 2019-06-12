@@ -1,0 +1,11 @@
+{
+	"name": "KeplerTech",
+	"version": "2.0",
+	"manifest_version": 2,
+	//"default_locale": "en",
+
+	//"background": {"persistent": true},
+	/*"incognito": "spanning",
+	"description": "Opensource maniacs",
+	//"start_url": "index.html"
+}
