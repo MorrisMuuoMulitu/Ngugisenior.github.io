@@ -59,10 +59,10 @@ body{
 	width: 1000px;
 	height: 700px;
 	background-size: contain,cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-repeat:round;
-    margin-top: 20px;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-repeat:round;
+        margin-top: 20px;
 	background: url("pages/pictures/evening.webp");
 	background-attachment: fixed;
 	max-height: 100%;
