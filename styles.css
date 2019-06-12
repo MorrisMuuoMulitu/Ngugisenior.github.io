@@ -146,9 +146,15 @@ article{
 	margin-right: auto;
 	background-image: url("pages/pictures/evening.webp");
 }
-img{
+#circular #pprofile img{
 	margin-top: 20px;
 	border-radius: 80px;
+	max-height: 100%;
+	max-width: 100%;
+}
+img{
+	margin-top: 20px;
+	border-radius: 30px;
 	max-height: 100%;
 	max-width: 100%;
 }
