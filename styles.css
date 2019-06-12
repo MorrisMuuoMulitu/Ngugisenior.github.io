@@ -117,13 +117,15 @@ body{
 }
 article{
 	padding-left: 20px;
-	background:url("pages/pictures/imgsrc.jpeg");
+	background-color: black;
+	background:url("pages/pictures/safee.jpeg");
 	background-attachment: fixed;
+	background-blend-mode: darken;
 	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 5px right;
-	color: azure;
+	color: #2C001E;
 	font-size: 20px;
 	font-family: monospace;
 	letter-spacing: 0.1em;
@@ -131,6 +133,20 @@ article{
 #article img{
 	max-height: 100%;
 	max-width: 100%;
+}
+pre{
+	width: 98%;
+	font-size: 20px;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+code {
+	color: azure;
+    background-color: gray;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
 }
 #Rally{
 	width: 900px;
