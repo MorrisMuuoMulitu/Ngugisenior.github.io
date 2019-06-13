@@ -270,3 +270,11 @@ ul, ol {
     background-size: cover;
     width: 500px;
 }
+.teams .torro-rosso{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    background: url("../pictures/trr.jpg");
+}
