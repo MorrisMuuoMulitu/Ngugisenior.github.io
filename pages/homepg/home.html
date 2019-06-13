@@ -1,22 +1,151 @@
 <!DOCTYPE html>
+<!-- code by webdevtrick ( https://webdevtrick.com ) -->
 <html>
+ 
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="home.css">
+  <meta charset="utf-8" />
+  <title>Autoplay Slider With HTML CSS JS | Webdevtrick.com</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
+ 
 <body>
-<div id="navigation">
-	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Home</a></li>
-	</ul>
-</div>
-<div container>
-	<div id="leftnav">Home</div>
-	<div id="rightnav">Home</div>
-</div>
+  <div class="navigation">
+    <ul>
+      <li><a href="#">RedBull</a></li>
+      <li><a href="#">Torro rosso</a></li>
+      <li><a href="#">Renault</a></li>
+      <li><a href="#">Ferrari</a></li>
+      <li><a href="#">McLaren</a></li>
+      <li><a href="#">Haas</a></li>
+      <li><a href="#">Alfa Romeo</a></li>
+      <li><a href="#">Williams</a></li>
+      <li><a href="#">Mercedes</a></li>
+      <li><a href="#">Racing Point</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="slider">
+      <ul class="slider-parent">
+        <li class="images-list" data-slider="1"></li>
+        <li class="images-list" data-slider="2"></li>
+        <li class="images-list" data-slider="3"></li>
+        <li class="images-list" data-slider="4"></li>
+        <li class="images-list" data-slider="5"></li>
+        <li class="images-list" data-slider="6"></li>
+        <li class="images-list" data-slider="7"></li>
+        <li class="images-list" data-slider="8"></li>
+        <li class="images-list" data-slider="9"></li>
+        <li class="images-list" data-slider="10"></li>
+        <li class="images-list" data-slider="11"></li>
+        <li class="images-list" data-slider="12"></li>
+        <li class="images-list" data-slider="13"></li>
+        <li class="images-list" data-slider="14"></li>
+        <li class="images-list" data-slider="15"></li>
+        <li class="images-list" data-slider="16"></li>
+        <li class="images-list" data-slider="17"></li>
+        <li class="images-list" data-slider="18"></li>
+        <li class="images-list" data-slider="19"></li>
+        <li class="images-list" data-slider="20"></li>
+        <li class="images-list" data-slider="21"></li>
+        <li class="images-list" data-slider="22"></li>
+        <li class="images-list" data-slider="23"></li>
+        <li class="images-list" data-slider="24"></li>
+        <li class="images-list" data-slider="25"></li>
+        <li class="images-list" data-slider="26"></li>
+        <li class="images-list" data-slider="27"></li>
+        <li class="images-list" data-slider="28"></li>
+        <li class="images-list" data-slider="29"></li>
+        <li class="images-list" data-slider="30"></li>
+        <li class="images-list" data-slider="31"></li>
+        <li class="images-list" data-slider="32"></li>
+        <li class="images-list" data-slider="33"></li>
+        <li class="images-list" data-slider="34"></li>
+        <li class="images-list" data-slider="35"></li>
+        <li class="images-list" data-slider="36"></li>
+        <li class="images-list" data-slider="37"></li>
+        <li class="images-list" data-slider="38"></li>
+        <li class="images-list" data-slider="39"></li>
+        <li class="images-list" data-slider="40"></li>
+        <li class="images-list" data-slider="41"></li>
+        <li class="images-list" data-slider="42"></li>
+        <li class="images-list" data-slider="43"></li>
+        <li class="images-list" data-slider="44"></li>
+        <li class="images-list" data-slider="45"></li>
+        <li class="images-list" data-slider="46"></li>
+        <li class="images-list" data-slider="47"></li>
+        <li class="images-list" data-slider="48"></li>
+        <li class="images-list" data-slider="49"></li>
+        <li class="images-list" data-slider="50"></li>
+      </ul>
+      <ol class="buttom-circles">
+        <li class="buttom-circles-list slider-active" data-slider="1"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="2"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="3"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="4"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="5"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="6"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="7"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="8"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="9"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="10"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="11"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="12"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="13"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="14"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="15"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="16"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="17"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="18"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="19"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="20"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="21"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="22"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="23"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="24"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="25"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="26"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="27"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="28"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="29"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="30"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="31"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="32"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="33"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="34"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="35"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="36"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="37"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="38"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="39"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="40"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="41"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="42"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="43"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="44"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="45"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="46"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="47"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="48"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="49"><i class="fa fa-circle-thin"></i></li>
+        <li class="buttom-circles-list" data-slider="50"></li>
+      </ol>
+      <i class="fa fa-chevron-right fa-5x"></i>
+      <i class="fa fa-chevron-left fa-5x"></i>
+    </div>
+  </div>
+  <div class="teams">
+    <div class="redbull"></div>
+    <div class="torro-rosso"></div>
+    <div class="mercedes"></div>
+    <div class="sportpesa"></div>
+    <div class="ferrari"></div>
+    <div class="renault"></div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <script  src="function.js"></script>
+ 
 </body>
 </html>

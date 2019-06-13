@@ -1,23 +1,272 @@
-#navigation{
-    background: pink;
+/** code by webdevtrick ( https://webdevtrick.com ) **/
+@font-face{
+    font-family: fontOne;
+    src:url("../fonts/Arizonia-Regular.ttf");
 }
-#navigation ul{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body {
+    background: url("../pictures/redbulltruck.jpg");
+    background-attachment: fixed;
+}
+.navigation{
+    position: top,fixed;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1500px;
+}
+.navigation ul{
+    display: flex;
     list-style: none;
-    clear: both;
+}
+.navigation ul li{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.navigation ul li a{
+    background-color: darkorange;
+    border-radius:10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+    color: azure;
+}
+.navigation ul li:hover{
+    background: dodgerblue;
+}
+.navigation ul li a:hover{
+    transition-duration: 2s;
+    font-family: fontOne;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+ul, ol {
+    list-style: none
+}
+.main {
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+}
+.slider {
+    position: relative
+}
+.slider .slider-parent {
+    padding: 0;
+    display: flex
+}
+.slider .slider-parent .images-list {
+    background-size: cover;
+}
+.slider .slider-parent .images-list:first-of-type, .slider .slider-parent .images-list:last-of-type {
+    background-image: url("../pictures/f.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(2) {
+    background-image: url("../pictures/f1.webp")
+}
+.slider .slider-parent .images-list:nth-of-type(3) {
+    background-image: url("../pictures/f11.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(4) {
+    background-image: url("../pictures/fo.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(5) {
+    background-image: url("../pictures/for.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(6) {
+    background-image: url("../pictures/form.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(7) {
+    background-image: url("../pictures/formu.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(8) {
+    background-image: url("../pictures/formul.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(9) {
+    background-image: url("../pictures/winter.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(10) {
+    background-image: url("../pictures/winter2.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(11) {
+    background-image: url("../pictures/winter.webp")
+}
+.slider .slider-parent .images-list:nth-of-type(12) {
+    background-image: url("../pictures/rdbull.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(13) {
+    background-image: url("../pictures/unnamed.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(14) {
+    background-image: url("../pictures/unname.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(15) {
+    background-image: url("../pictures/unnamd.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(16) {
+    background-image: url("../pictures/unam.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(17) {
+    background-image: url("../pictures/una.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(18) {
+    background-image: url("../pictures/un.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(19) {
+    background-image: url("../pictures/imgsrc.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(20) {
+    background-image: url("../pictures/ff.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(21) {
+    background-image: url("../pictures/runner.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(22) {
+    background-image: url("../pictures/runne.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(23) {
+    background-image: url("../pictures/runn.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(24) {
+    background-image: url("../pictures/run.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(25) {
+    background-image: url("../pictures/ru.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(26) {
+    background-image: url("../pictures/r.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(27) {
+    background-image: url("../pictures/runnnn.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(28) {
+    background-image: url("../pictures/formula.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(29) {
+    background-image: url("../pictures/formulao.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(30) {
+    background-image: url("../pictures/formulaon.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(31) {
+    background-image: url("../pictures/formulaone.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(32) {
+    background-image: url("../pictures/r.jpeg")
+}
+.slider .slider-parent .images-list:nth-of-type(33) {
+    background-image: url("../pictures/rally.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(34) {
+    background-image: url("../pictures/rb.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(35) {
+    background-image: url("../pictures/rbat.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(36) {
+    background-image: url("../pictures/rdbull.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(37) {
+    background-image: url("../pictures/red.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(38) {
+    background-image: url("../pictures/redb.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(39) {
+    background-image: url("../pictures/redb.png")
+}
+.slider .slider-parent .images-list:nth-of-type(40) {
+    background-image: url("../pictures/redbb.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(41) {
+    background-image: url("../pictures/redbbu.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(42) {
+    background-image: url("../pictures/redbbul.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(43) {
+    background-image: url("../pictures/redbu.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(44) {
+    background-image: url("../pictures/redbul.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(45) {
+    background-image: url("../pictures/redbull3.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(46) {
+    background-image: url("../pictures/redbulll.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(47) {
+    background-image: url("../pictures/redbullt.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(48) {
+    background-image: url("../pictures/redbulltr.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(49) {
+    background-image: url("../pictures/redbulltru.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(50) {
+    background-image: url("../pictures/redbulltruc.jpg")
+}
+.slider .slider-parent .images-list:nth-of-type(31) {
+    background-image: url("../pictures/redbulltruck.jpg")
+}
+.slider .buttom-circles {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 10px
+}
+.slider .buttom-circles .buttom-circles-list {
+    display: inline-block
+}
+.slider .buttom-circles .buttom-circles-list:hover .fa:before, .slider .buttom-circles .buttom-circles-list.slider-active .fa:before {
+    content: "\f111";
+}
+.slider > .fa {
+    position: absolute;
+    top: 45%
+}
+.slider > .fa:first-of-type { right: 5px}
+.slider > .fa:last-of-type { left: 5px}
+.slider .fa {
+    text-shadow: 5px 5px 5px #555;
+    cursor: pointer
+}
+
+@media(min-width: 100px) and (max-width: 767px) {
+    .slider > .fa { font-size: 25px }
+    .slider .buttom-circles .buttom-circles-list { visibility: hidden }
+}
+@media(min-width: 768px) and (max-width: 991px) { 
+    .slider > .fa { font-size: 50px }
+    .slider .buttom-circles .buttom-circles-list { visibility: hidden }
+}
+@media(min-width: 992px) and (max-width: 1199px) { 
+    .slider > .fa { font-size: 75px }
+    .slider .buttom-circles .buttom-circles-list { font-size: 17px }
+}
+@media(min-width: 1200px) { 
+    .slider > .fa { font-size: 100px }
+    .slider .buttom-circles .buttom-circles-list { font-size: 25px }
+}
+.teams{
+    margin-top: 50px;
+    background-image: url("../pictures/redbulltruck.jpg");
+    background-attachment: fixed;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    text-align: center;
 }
-#navigation ul li{
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-}
-#navigation ul li a{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    clear: both;
-    text-decoration: none;
+.teams .redbull{
+    border-radius: 20px;
+    height: 400px;
+    background: url("../pictures/redbull3.jpg");
+    background-size: cover;
+    width: 500px;
 }
